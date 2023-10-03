@@ -13,6 +13,7 @@ import card1Img7 from './img/card1-img7.jpg'
 import card1Img8 from './img/card1-img8.jpg'
 import card1Img9 from './img/card1-img9.jpg'
 import Moliya from './moliya'
+import Oqilgan from './oqilgan'
 
 export const AsideCard = () => {
     return (
@@ -173,6 +174,7 @@ export const AsideCard = () => {
                 <div>
                     <Tavsif />
                     <Moliya/>
+                    <Oqilgan/>
                 </div>
 
             </div>

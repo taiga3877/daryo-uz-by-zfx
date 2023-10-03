@@ -111,3 +111,37 @@
 .aside-box1--card3__heading:hover{
     color: #008ccc;
 }
+
+
+.aside-box4--oqilgan{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.aside-box4--oqilgan__bordertext{
+    background-color: #008ccc;
+    border-radius: 50%;
+    color: #fff;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    padding: 10px;
+    font-size: 30px;
+    margin-top: -45px;
+}
+
+.aside-box4--oqilgan__heading{
+    cursor: pointer;
+    width: 292px;
+    font-size: 15px;
+
+}
+
+.aside-box4--oqilgan__heading:hover{
+    color: #008ccc;
+}
+
+.aside-box4--oqilgan__text{
+    font-size: 10px;
+}
