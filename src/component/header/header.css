@@ -26,6 +26,7 @@
     justify-content: space-around;
     gap: 20px;
     align-items: center;
+    cursor: pointer;
 
 
 }
@@ -44,9 +45,12 @@
     list-style: none;
 
 }
-
+.header-nav__item--list{
+    cursor: pointer;
+}
 .header-nav__item--list-select{
     background-color: black;
     color: #fff;
     border: none;
+    cursor: pointer;
 }
