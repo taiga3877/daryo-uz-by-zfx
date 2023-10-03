@@ -1,0 +1,54 @@
+.aside{
+    width: 380px;
+}
+
+.aside-card{
+ background-color: #008ccc;
+}
+
+
+.aside-card--heading{
+    padding: 5px;
+    font-size: 18px;
+   
+}
+.text--span{
+    border-top: 3px solid#008ccc;
+    margin-right: 330px;
+    
+}
+.aside-card--text{
+    border-top: 2px solid #efeffe;
+    margin-top: -16.3px;
+}
+
+.aside-box{
+    overflow-y: scroll;
+    height: 500px;
+}
+
+.aside-box--card1{
+    display: flex;
+    align-items: center;
+    padding:6px;
+    justify-content: space-between;
+   
+}
+
+
+.aside-box--card1__heading{
+    width: 206px;
+    height: 60.4px;
+    font-size: 14px;
+    cursor: pointer;
+}
+.aside-box--card1__text{
+    font-size: 10px;
+    
+    /* margin-top: 8px; */
+}
+.aside-box--card1__img{
+    width: 92px;
+    height: 69px;
+    cursor: pointer;
+}
