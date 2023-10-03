@@ -23,7 +23,7 @@
 }
 
 .aside-box{
-    overflow-y: scroll;
+    overflow-y: scroll ;
     height: 500px;
 }
 
@@ -42,8 +42,12 @@
     font-size: 14px;
     cursor: pointer;
 }
+
+.aside-box--card1__heading:hover{
+    color: #008ccc;
+}
 .aside-box--card1__text{
-    font-size: 10px;
+    font-size: 12px;
     
     /* margin-top: 8px; */
 }
@@ -51,4 +55,27 @@
     width: 92px;
     height: 69px;
     cursor: pointer;
+}
+
+.aside-box1--card1{
+    display: flex;
+    align-items: center;
+    padding:6px;
+    justify-content: space-between;
+    gap: 0;
+}
+
+.aside-box1--card1__heading{
+    width: 226px;
+    height: 60.4px;
+    font-size: 14px;
+    cursor: pointer;
+}
+.aside-box1--card1__heading:hover{
+    color: #008ccc;
+}
+
+.aside-box1--card1__text{
+    font-size: 12px;
+    
 }
