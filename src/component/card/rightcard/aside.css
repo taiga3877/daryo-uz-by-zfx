@@ -59,7 +59,6 @@
 
 .aside-box1--card1{
     display: flex;
-    align-items: center;
     padding:6px;
     justify-content: space-between;
     gap: 0;
@@ -78,4 +77,37 @@
 .aside-box1--card1__text{
     font-size: 12px;
     
+}
+
+.aside-card__moliya--img{
+    width: 336px;
+    height: 200px;
+    cursor: pointer;
+}
+
+.img-box{
+    background-image: url( https://daryo.uz/static/2023/10/medium-651998f2f27b9.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: 200px;
+    margin-top: 35px;
+}
+.img-box__text{
+    position: relative;
+    background-color: #008ccc;
+    color: #000;
+    top: 182px;
+    font-size: 16px;
+    left: 0;
+    width: 82.1px;
+    padding: 0 8px;
+    cursor: pointer;
+}
+.aside-box1--card3__heading{
+    cursor: pointer;
+}
+
+.aside-box1--card3__heading:hover{
+    color: #008ccc;
 }
