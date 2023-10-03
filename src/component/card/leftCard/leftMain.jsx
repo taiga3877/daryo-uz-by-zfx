@@ -2,8 +2,13 @@ import './leftMain.css'
 
 export const LeftMain =() =>{
     return(
-        <div>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis id autem ipsum debitis adipisci fugiat iure, omnis, alias ducimus, sint blanditiis porro sit incidunt. Fugiat veritatis vero consectetur repellat amet impedit, quibusdam saepe repudiandae praesentium sequi in blanditiis, quia fugit beatae nulla dicta laborum. Error nam nisi delectus unde vero?
+        <div className='leftMain-box'>
+        <div className='leftMain-box--img'>
+            <p className='leftMain-box--text'>DUNYO</p>
+        <h2 className='leftMain-box--heading'>
+        Firibgarlikda ayblanayotgan Tramp, drenajdan chiqqan o‘lik delfinlar, bozordagi  ulkan sakkizoyoq — 3-oktyabr suratlari
+        </h2>
+        </div>
         </div>
     )
 }

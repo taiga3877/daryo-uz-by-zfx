@@ -1,0 +1,38 @@
+
+
+
+.leftMain-box--img{
+    background-image: url(https://daryo.uz/static/2023/10/thumb-651c54bc32deb.jpg);
+    width: 770px;
+    height: 405px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    overflow: hidden;
+    cursor: pointer;
+    
+}
+
+.leftMain-box--text{
+    background-color: #008ccc;
+    width: 52.53px;
+    position: relative;
+    left: 50px;
+    top: 175px;
+    padding: 5px;
+    font-size: 12px;
+
+}
+
+.leftMain-box--heading{
+    color: #fff;
+    width: 576px;
+    position: relative;
+    top: 180px;
+    left: 50px;
+    font-size: 28px;
+    width: 576px;
+    height: 117px;
+    
+    
+}

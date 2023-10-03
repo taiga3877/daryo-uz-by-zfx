@@ -1,27 +1,28 @@
 import { Header } from "./component/header"
 import { BrowserRouter, Route,  Routes } from "react-router-dom"
-import { Footer } from "antd/es/layout/layout"
 import { Card } from "./component/card"
+import { AsideCard } from "./component/card/rightcard"
+import { LeftMain } from "./component/card/leftCard"
+import { Dunyo } from "./component/dunyo"
 
 
 function App() {
   return(
     <BrowserRouter>
     <Header/>
-    {/* <div>
-      <div className="right">
+    {/* <div className=" card container">
+      <div >
         <Routes>
-          <Route></Route>
+          <Route path="" element={<LeftMain/>}></Route>
         </Routes>
       </div>
-      <div className="left">
+      <div >
         <AsideCard/>
       </div>
     </div> */}
      <Card/>
-    {/* <Footer /> */}
     <Routes>
-      <Route path="/" />
+      <Route path="/dunyo" element={<Dunyo/>} />
     </Routes>
 
     </BrowserRouter>
