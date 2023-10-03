@@ -17,7 +17,7 @@ import Oqilgan from './oqilgan'
 
 export const AsideCard = () => {
     return (
-        <div className="container">
+        <div>
             <div className="aside">
 
 
