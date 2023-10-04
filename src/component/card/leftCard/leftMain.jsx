@@ -7,6 +7,7 @@ import leftImg2 from './img/wrapper-img2.jpg'
 import leftImg3 from './img/wrapper-img3.jpg'
 import leftImg4 from './img/wrapper-img4.jpg'
 import DunyoCard from './dunyoCard'
+import MahalliyCard from './mahalliyCard'
 
 
 
@@ -56,6 +57,7 @@ export const LeftMain =() =>{
 
 
         <DunyoCard/>
+        <MahalliyCard/>
         </div>
     )
 }
