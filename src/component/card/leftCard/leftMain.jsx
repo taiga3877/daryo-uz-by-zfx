@@ -8,6 +8,7 @@ import leftImg3 from './img/wrapper-img3.jpg'
 import leftImg4 from './img/wrapper-img4.jpg'
 import DunyoCard from './dunyoCard'
 import MahalliyCard from './mahalliyCard'
+import LifestyleCard from './lifestyleCard'
 
 
 
@@ -58,6 +59,7 @@ export const LeftMain =() =>{
 
         <DunyoCard/>
         <MahalliyCard/>
+        <LifestyleCard/>
         </div>
     )
 }

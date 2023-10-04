@@ -154,7 +154,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: 20px;
+    gap: 10px;
 }
 
 .card-leftDunyo--right__card--img{
@@ -201,3 +201,77 @@
     margin-bottom: 30px;
     cursor: pointer;
 }
+
+
+.card-leftDunyo--left--lifestyle{
+    background-image: url(https://daryo.uz/static/2023/Sevara/photo_2023-10-04_13-42-57.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    overflow: hidden;
+    cursor: pointer;
+    width: 367px;
+    height: 244px;
+}
+.card-leftDunyo--left--lifestyle1{
+    background-image: url(https://daryo.uz/static/2023/Sevara/Depositphotos_381711270_xl-2015.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    overflow: hidden;
+    cursor: pointer;
+    width: 367px;
+    height: 244px;
+}
+
+
+.card-leftDunyo--left--lifestyle__text{
+    background-color: #008ccc;
+    font-size: 10px;
+    padding: 0 8px;
+    width: 80px;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: .03em;
+    line-height: 22px;
+    position: relative;
+    margin-bottom: 6px;
+    border-radius:  1px;
+    top: 90px;
+    left: 25px;
+}
+
+
+.card-leftDunyo--left--lifestyle__heading{
+    color: #fff;
+    font-size: 17px;
+    width: 332px;
+    position: relative;
+    left: 25px;
+    line-height: 1.28;
+    top: 80px;
+    
+}
+
+.card-leftDunyo--left--lifestyle__span{
+    color: #212121;
+    opacity: 0.5;
+    font-size: 10px;
+    position: relative;
+    left: 25px;
+    top: 80px;
+}
+
+.card-leftDunyo--right__lifestyle{
+    display: flex;
+    margin-top: 30px;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+
+
+
+
+
