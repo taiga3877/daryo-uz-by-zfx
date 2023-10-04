@@ -60,3 +60,133 @@
 .leftMain-box--card__wrapper--heading:hover{
     color: #008ccc;
 }
+
+
+.aside-card__dunyo--heading{
+    font-size: 16px;
+    padding: bottom 15px; ;
+}
+
+
+
+.text-dunyo--span {
+    border-top: 3px solid#008ccc;
+    margin-right: 730px;
+
+}
+
+.aside-card__dunyo--text {
+    border-top: 2px solid #efeffe;
+    margin-top: -16.3px;
+}
+.card-leftDunyo{
+    margin-top: 30px;
+}
+
+.card-leftDunyo--left{
+    background-image: url(https://daryo.uz/static/2023/10/thumb-651d3b78d2389.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    overflow: hidden;
+    cursor: pointer;
+    width: 361px;
+    height: 218px;
+}
+
+
+.card-leftDunyo--left__text{
+    background-color: #008ccc;
+    padding: 0 8px;
+    position: relative;
+    bottom: -186px;
+    width: 52.53px;
+    font-size: 10px;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: .03em;
+    line-height: 22px;
+    border-radius: 1px;
+
+}
+
+.card-leftDunyo--left__heading{
+    width: 367px;
+    font-size: 17px;
+    color: #161616;
+}
+
+.card-leftDunyo--left__heading:hover{
+    color: #008ccc;
+}
+
+.card-leftDunyo--left__text1{
+    font-size: 10px;
+    color: #212121;
+}
+.card-leftDunyo--left__dec{
+    font-size: 14px;
+    color: #515151;
+    width: 367px;
+    line-height: 22px;
+}
+.card-leftDunyo{
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+
+}
+
+.card-leftDunyo--right{
+    margin-top: -19px;
+}
+.card-leftDunyo--right__card{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+.card-leftDunyo--right__card--img{
+    width: 92px;
+    height: 69px;
+
+}
+
+.card-leftDunyo--right__card--heading{
+    font-size: 14px;
+    width: 257px;
+    color: #161616;
+}
+
+.card-leftDunyo--right__card--heading:hover{
+    color: #008ccc;
+}
+
+
+
+.card-leftDunyo--right__card--text{
+    font-size: 10px;
+    color: #212121;
+    font-weight: normal;
+    text-transform: uppercase;
+    letter-spacing: .03em;
+}
+
+.card-leftDunyo--btn{
+    margin-top: 15px;
+    background-color: #008ccc;
+    text-align: center;
+    width: 770px;
+    border: none;
+    padding: 10 17px;
+    line-height: 25px;
+   font-size: 12px;
+   font-weight: 500;
+    height: 38px;
+    letter-spacing: .03em;
+    text-transform: uppercase;
+    color: #000;
+    border-radius: 2px;
+    margin-bottom: 50px;
+}
