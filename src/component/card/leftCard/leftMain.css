@@ -36,3 +36,27 @@
     
     
 }
+
+
+.leftMain-box--card{
+    display: flex;
+    margin-top: 25px;
+    justify-content: space-between;
+}
+
+
+.leftMain-box--card__wrapper--img{
+    width: 138px;
+    height: 82.61px;
+}
+
+
+.leftMain-box--card__wrapper--heading{
+    font-size: 14px;
+    width: 138px;
+    height: 57.1px;
+}
+
+.leftMain-box--card__wrapper--heading:hover{
+    color: #008ccc;
+}
