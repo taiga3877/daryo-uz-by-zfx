@@ -93,6 +93,16 @@
     width: 361px;
     height: 218px;
 }
+.card-leftDunyo--left--mahalliy{
+    background-image: url(https://daryo.uz/static/2023/10/thumb-651d46d041f0d.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    overflow: hidden;
+    cursor: pointer;
+    width: 361px;
+    height: 218px;
+}
 
 
 .card-leftDunyo--left__text{
@@ -188,6 +198,6 @@
     text-transform: uppercase;
     color: #000;
     border-radius: 2px;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
     cursor: pointer;
 }
