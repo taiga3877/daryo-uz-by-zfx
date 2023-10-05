@@ -4,26 +4,27 @@ import { Card } from "./component/card"
 import { AsideCard } from "./component/card/rightcard"
 import { LeftMain } from "./component/card/leftCard"
 import { Dunyo } from "./component/dunyo"
+import { Footer } from "antd/es/layout/layout"
 
 
 function App() {
   return(
     <BrowserRouter>
     <Header/>
-    {/* <div className=" card container">
-      <div >
+    <div className=" card container">
+      <div className="left">
         <Routes>
-          <Route path="" element={<LeftMain/>}></Route>
+          <Route path="/" element={<LeftMain/>}></Route>
+          <Route path="/category/dunyo" element={<Dunyo/>}></Route>
         </Routes>
       </div>
-      <div >
+      <div className="right">
         <AsideCard/>
       </div>
-    </div> */}
-     <Card/>
-    <Routes>
-      <Route path="/dunyo" element={<Dunyo/>} />
-    </Routes>
+    </div>
+     {/* <Card/> */}
+     <Footer/>
+    
 
     </BrowserRouter>
   )

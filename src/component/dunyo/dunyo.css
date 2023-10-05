@@ -1,0 +1,13 @@
+.card--dunyo__heading{
+    width: 770px;
+    font-size: 19px;
+    margin-left: 10px;
+    padding-left: 14px;
+    border-left: 3px solid #008ccc;
+    color: #161616;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-bottom: 40px;
+    
+
+}

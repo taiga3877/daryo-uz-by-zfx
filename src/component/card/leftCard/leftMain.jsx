@@ -6,6 +6,7 @@ import leftImg1 from './img/wrapper-img1.jpg'
 import leftImg2 from './img/wrapper-img2.jpg'
 import leftImg3 from './img/wrapper-img3.jpg'
 import leftImg4 from './img/wrapper-img4.jpg'
+import reklama from './img/reklama.webp'
 import DunyoCard from './dunyoCard'
 import MahalliyCard from './mahalliyCard'
 import LifestyleCard from './lifestyleCard'
@@ -60,6 +61,13 @@ export const LeftMain =() =>{
         <DunyoCard/>
         <MahalliyCard/>
         <LifestyleCard/>
+
+        
+        <img style={{
+            width:'770px',
+            
+        }} src={reklama} alt="" />
         </div>
+     
     )
 }

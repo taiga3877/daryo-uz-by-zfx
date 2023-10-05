@@ -11,6 +11,7 @@
     overflow: hidden;
     cursor: pointer;
     
+    
 }
 
 .leftMain-box--text{
@@ -33,6 +34,8 @@
     font-size: 28px;
     width: 576px;
     height: 117px;
+    background: transparent;
+    /* background-color: ; */
     
     
 }
