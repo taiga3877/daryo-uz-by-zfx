@@ -1,34 +1,34 @@
-
+import './mahalliy.css'
 import { NavLink } from 'react-router-dom'
-import './dunyo.css'
-
-import dunyoImg from './img/dunyo-img.jpg'
-import dunyoImg1 from './img/dunyo-img1.jpg'
-import dunyoImg2 from './img/dunyo-img2.jpg'
-import dunyoImg3 from './img/dunyo-img3.jpg'
-import dunyoImg4 from './img/dunyo-img4.jpg'
-import dunyoImg5 from './img/dunyo-img5.jpg'
-import dunyoImg6 from './img/dunyo-img6.jpg'
-import dunyoImg7 from './img/dunyo-img7.jpg'
-import dunyoImg8 from './img/dunyo-img8.jpg'
 
 
-export const Dunyo = () => {
-  return (
-    <div className='card--dunyo'>
-      <h2 className='card--dunyo__heading'>DUNYO </h2>
+import dunyoImg from '../dunyo/img/dunyo-img.jpg'
+import dunyoImg1 from '../dunyo/img/dunyo-img1.jpg'
+import dunyoImg2 from '../dunyo/img/dunyo-img2.jpg'
+import dunyoImg3 from '../dunyo/img/dunyo-img3.jpg'
+import dunyoImg4 from '../dunyo/img/dunyo-img4.jpg'
+import dunyoImg5 from '../dunyo/img/dunyo-img5.jpg'
+import dunyoImg6 from '../dunyo/img/dunyo-img6.jpg'
+import dunyoImg7 from '../dunyo/img/dunyo-img7.jpg'
+import dunyoImg8 from '../dunyo/img/dunyo-img8.jpg'
+
+
+export const Mahalliy = () =>{
+    return(
+        <div className='card--dunyo'>
+      <h2 className='card--dunyo__heading'>Mahalliy </h2>
 
       <div className="card--dunyo__box">
         <div>
           <div className="card--dunyo__box--wrapper">
-            <NavLink to="/category/dunyo" style={{
+            <a href="/category/mahalliy" style={{
               color: "#000",
               textDecoration: "none"
 
             }}>
-              <p className='card--dunyo__box--wrapper--text'>DUNYO</p>
+              <p className='card--dunyo__box--wrapper--text'>MAHALLIY</p>
 
-            </NavLink>
+            </a>
           </div>
           <h3 className='card--dunyo__box--wrapper--heading'>
             Bayden Ukrainaga ATACMS raketalarini yetkazib berish haqidagi savolga javob berdi
@@ -45,12 +45,12 @@ export const Dunyo = () => {
         <div>
           <div className="card--dunyo__box--wrapper">
             <img className='card--dunyo__box--wrapper' src={dunyoImg} alt="" />
-            <a href="/category/dunyo" style={{
+            <a href="/category/mahalliy" style={{
               color: "#000",
               textDecoration: "none"
 
             }}>
-              <p className='card--dunyo__box--wrapper--text1'>DUNYO</p>
+              <p className='card--dunyo__box--wrapper--text1'>MAHALLIY</p>
 
             </a>
           </div>
@@ -73,12 +73,12 @@ export const Dunyo = () => {
         <div>
           <div className="card--dunyo__box--wrapper">
             <img className='card--dunyo__box--wrapper' src={dunyoImg1} alt="" />
-            <a href="/category/dunyo" style={{
+            <a href="/category/mahalliy" style={{
               color: "#000",
               textDecoration: "none"
 
             }}>
-              <p className='card--dunyo__box--wrapper--text1'>DUNYO</p>
+              <p className='card--dunyo__box--wrapper--text1'>MAHALLIY</p>
 
             </a>
           </div>
@@ -98,12 +98,12 @@ export const Dunyo = () => {
         <div>
           <div className="card--dunyo__box--wrapper">
             <img className="card--dunyo__box--wrapper" src={dunyoImg2} alt="" />
-            <a href="/category/dunyo" style={{
+            <a href="/category/mahalliy" style={{
               color: "#000",
               textDecoration: "none"
 
             }}>
-              <p className='card--dunyo__box--wrapper--text1'>DUNYO</p>
+              <p className='card--dunyo__box--wrapper--text1'>MAHALLIY</p>
 
             </a>
           </div>
@@ -126,14 +126,14 @@ export const Dunyo = () => {
         <div>
           <div className="card--dunyo__box--wrapper">
             <img className="card--dunyo__box--wrapper" src={dunyoImg3} alt="" />
-            <a href="/category/dunyo" style={{
+            <a href="/category/mahalliy" style={{
               color: "#000",
               textDecoration: "none"
 
             }}>
               <p className='card--dunyo__box--wrapper--text1' style={{
               
-              }}>DUNYO</p>
+              }}>MAHALLIY</p>
 
             </a>
           </div>
@@ -155,7 +155,7 @@ export const Dunyo = () => {
         <div>
           <div className="card--dunyo__box--wrapper">
             <img className="card--dunyo__box--wrapper" src={dunyoImg4} alt="" />
-            <a href="/category/dunyo" style={{
+            <a href="/category/mahalliy" style={{
               color: "#000",
               textDecoration: "none"
 
@@ -163,7 +163,7 @@ export const Dunyo = () => {
               <p className='card--dunyo__box--wrapper--text1' style={{
                 left:'3px',
                 bottom:"7px"
-              }}>DUNYO</p>
+              }}>MAHALLIY</p>
 
             </a>
           </div>
@@ -182,12 +182,12 @@ export const Dunyo = () => {
         <div>
           <div className="card--dunyo__box--wrapper">
             <img className="card--dunyo__box--wrapper" src={dunyoImg5} alt="" />
-            <a href="/category/dunyo" style={{
+            <a href="/category/mahalliy" style={{
               color: "#000",
               textDecoration: "none"
 
             }}>
-              <p className='card--dunyo__box--wrapper--text1'>DUNYO</p>
+              <p className='card--dunyo__box--wrapper--text1'>MAHALLIY</p>
 
             </a>
           </div>
@@ -205,12 +205,12 @@ export const Dunyo = () => {
         <div>
           <div className="card--dunyo__box--wrapper">
             <img className="card--dunyo__box--wrapper" src={dunyoImg6} alt="" />
-            <a href="/category/dunyo" style={{
+            <a href="/category/mahalliy" style={{
               color: "#000",
               textDecoration: "none"
 
             }}>
-              <p className='card--dunyo__box--wrapper--text1'>DUNYO</p>
+              <p className='card--dunyo__box--wrapper--text1'>MAHALLIY</p>
 
             </a>
           </div>
@@ -229,12 +229,12 @@ export const Dunyo = () => {
         <div>
           <div className="card--dunyo__box--wrapper">
             <img className="card--dunyo__box--wrapper" src={dunyoImg7} alt="" />
-            <a href="/category/dunyo" style={{
+            <a href="/category/mahalliy" style={{
               color: "#000",
               textDecoration: "none"
 
             }}>
-              <p className='card--dunyo__box--wrapper--text1'>DUNYO</p>
+              <p className='card--dunyo__box--wrapper--text1'>MAHALLIY</p>
 
             </a>
           </div>
@@ -252,12 +252,12 @@ export const Dunyo = () => {
         <div>
           <div className="card--dunyo__box--wrapper">
             <img className="card--dunyo__box--wrapper" src={dunyoImg8} alt="" />
-            <a href="/category/dunyo" style={{
+            <a href="/category/mahalliy" style={{
               color: "#000",
               textDecoration: "none"
 
             }}>
-              <p className='card--dunyo__box--wrapper--text1'>DUNYO</p>
+              <p className='card--dunyo__box--wrapper--text1'>MAHALLIY</p>
 
             </a>
           </div>
@@ -285,5 +285,5 @@ export const Dunyo = () => {
             }} src='https://avatars.mds.yandex.net/get-adfox-content/2367573/230913_adfox_2627989_7692881.baed107e3f956903fdabf77d0d065cd0.jpg/optimize.webp' alt="" />
       </a>
     </div>
-  )
+    )
 }

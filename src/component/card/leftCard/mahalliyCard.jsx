@@ -5,6 +5,7 @@ import mahhalliyImg from './img/mahalliy-img.jpg'
 import mahhalliyImg1 from './img/mahalliy-img1.jpg'
 import mahhalliyImg2 from './img/mahalliy-img2.jpg'
 import mahhalliyImg3 from './img/mahalliy-img3.jpg'
+import { NavLink } from 'react-router-dom'
 
 
 
@@ -15,7 +16,9 @@ function MahalliyCard() {
 
 
             <div className="aside-card__dunyo">
+
                 <h3 className='aside-card__dunyo--heading'>Mahalliy </h3>
+
 
             </div>
             <p className='text-dunyo--span'></p>
@@ -89,9 +92,14 @@ function MahalliyCard() {
 
 
                     <div className="card-leftDunyo--left--mahalliy">
-                        <p className="card-leftDunyo--left__text">
-                            MAHALLIY
-                        </p>
+                        <NavLink to="/category/mahalliy" style={{
+                            color: '#000',
+                            textDecoration: 'none',
+                        }}>
+                            <p className="card-leftDunyo--left__text">
+                                MAHALLIY
+                            </p>
+                        </NavLink>
 
 
                     </div>
@@ -112,7 +120,13 @@ function MahalliyCard() {
                 </div>
 
             </div>
+            <NavLink to='category/mahalliy' style={{
+                            color: '#000',
+                            textDecoration: 'none',
+                        }}>
             <button className="card-leftDunyo--btn"> <b>MAHALLIY</b>-ENG SO'NGGI XABARLAR </button>
+
+            </NavLink>
 
         </div>
     )
