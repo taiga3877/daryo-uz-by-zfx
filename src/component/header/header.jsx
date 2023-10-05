@@ -15,10 +15,12 @@ export const Header = () =>{
             }} src={helogo} alt="header logo" />
             </a>
 
+            <a href="https://www.textileexpo.uz/uz/visitors/online-registratsiya.php?utm_source=Daryo&utm_medium=banner" target={'_blank'}>
             <img  style={{
                 width:'899px',
                 height:'85px',
             }} src={heReklama} alt="Header-reklama-img" />
+            </a>
         </div>
 
        <div className='header-box'>

@@ -26,9 +26,13 @@ export const LeftMain =() =>{
             <p className='leftMain-box--text'>DUNYO</p>
 
             </NavLink>
-        <h2 className='leftMain-box--heading'>
+       <NavLink to="https://daryo.uz/2023/10/05/ozbekistonda-kollej-va-texnikumlarda-talim-olayotgan-qizlarga-grant-ajratiladi" style={{
+        textDecoration:'none',
+       }}>
+       <h2 className='leftMain-box--heading'>
         Firibgarlikda ayblanayotgan Tramp, drenajdan chiqqan o‘lik delfinlar, bozordagi  ulkan sakkizoyoq — 3-oktyabr suratlari
         </h2>
+       </NavLink>
         </div>
 
         <div className="leftMain-box--card">
@@ -71,10 +75,12 @@ export const LeftMain =() =>{
         <LifestyleCard/>
 
         
+        <a href="https://ucell.uz/uz/subscribers/tariffs?utm_source=daryo&utm_medium=cpm&utm_campaign=doimiy&utm_content=2332x220&utm_term=uz" target={'_blank'}>
         <img style={{
             width:'770px',
             
         }} src={reklama} alt="" />
+        </a>
         </div>
      
     )
