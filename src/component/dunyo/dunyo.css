@@ -48,7 +48,45 @@
 
 
 .card--dunyo__box--wrapper--heading{
-    color: #161616
-    
+    color: #161616;
+    font-size: 17px;
+    width: 367px;
+    cursor: pointer;
 
+}
+
+.card--dunyo__box--wrapper--heading:hover{
+color: #008ccc;
+}
+
+.card--dunyo__box--wrapper--span{
+    font-size: 10px;
+    color: #212121;
+    font-weight: normal;
+    text-transform: uppercase;
+    letter-spacing: .03em;
+}
+
+.card--dunyo__box--wrapper--dec{
+    width: 367px;
+    color: #505050;
+    line-height: 20px;
+}
+
+
+.card--dunyo__box--btn{
+    width: 100%;
+    line-height: 18px;
+    padding: 4px 0;
+    background-color: #008ccc;
+    border: none ;
+    cursor: pointer;
+    height: 40px;
+    border-radius: 1px;
+
+}
+
+.card--dunyo__box--btn:hover{
+    color: #fff;
+    border: 1px solid #000;
 }

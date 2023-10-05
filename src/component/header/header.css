@@ -48,6 +48,10 @@
 .header-nav__item--list{
     cursor: pointer;
 }
+
+.header-nav__item--list:hover{
+    border-bottom: 2px solid #008ccc;
+}
 .header-nav__item--list-select{
     background-color: black;
     color: #fff;

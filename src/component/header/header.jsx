@@ -2,6 +2,7 @@ import helogo from './img/logo.svg'
 import heReklama from './img/header-reklama-img.jpg'
 import { SearchOutlined } from '@ant-design/icons'
 import './header.css'
+import { NavLink } from 'react-router-dom'
 
 
 export const Header = () =>{
@@ -44,7 +45,14 @@ export const Header = () =>{
 
                     </select>
                      </li>
-                <li className='header-nav__item--list'>Dunyo</li>
+                     <NavLink to="/category/dunyo" style={{
+                        color:"#fff",
+                        textDecoration:"none"
+
+                     }}>
+                     <li className='header-nav__item--list'>Dunyo</li>
+
+                     </NavLink>
                 <li className='header-nav__item--list'>
                     <select className='header-nav__item--list-select' name="" id="">
                         <option value="">Pul</option>

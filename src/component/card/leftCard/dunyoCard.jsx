@@ -3,6 +3,7 @@ import rightImg from './img/right-img.jpg'
 import rightImg1 from './img/right-img1.jpg'
 import rightImg2 from './img/right-img2.jpg'
 import rightImg3 from './img/right-img3.jpg'
+import { NavLink } from 'react-router-dom'
 
 
 function DunyoCard (){
@@ -21,9 +22,17 @@ function DunyoCard (){
 
                
                 <div className="card-leftDunyo--left">
+                    <NavLink to="/category/dunyo" style={{
+                        color:"#000",
+                        textDecoration:"none"
+
+                     }} >
+
+                   
                     <p className="card-leftDunyo--left__text">
                         DUNYO 
                     </p>
+                    </NavLink>
 
                     
                 </div>
@@ -97,7 +106,13 @@ function DunyoCard (){
 
                
             </div>
+            <NavLink to="/category/dunyo" style={{
+                        color:"#fff",
+                        textDecoration:"none"
+
+                     }}>
             <button className="card-leftDunyo--btn"> <b>DUNYO</b>-ENG SO'NGGI XABARLAR </button>
+            </NavLink>
         </div>
     )
 }

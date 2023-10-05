@@ -10,6 +10,7 @@ import reklama from './img/reklama.webp'
 import DunyoCard from './dunyoCard'
 import MahalliyCard from './mahalliyCard'
 import LifestyleCard from './lifestyleCard'
+import { NavLink } from 'react-router-dom'
 
 
 
@@ -17,7 +18,14 @@ export const LeftMain =() =>{
     return(
         <div className='leftMain-box'>
         <div className='leftMain-box--img'>
+            <NavLink to="/category/dunyo" style={{
+                        color:"#000",
+                        textDecoration:"none"
+
+                     }}>
             <p className='leftMain-box--text'>DUNYO</p>
+
+            </NavLink>
         <h2 className='leftMain-box--heading'>
         Firibgarlikda ayblanayotgan Tramp, drenajdan chiqqan o‘lik delfinlar, bozordagi  ulkan sakkizoyoq — 3-oktyabr suratlari
         </h2>
