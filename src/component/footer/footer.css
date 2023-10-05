@@ -1,0 +1,73 @@
+
+
+.footer-card--img{
+    width: 182px;
+    height: 48.6px;
+    margin-top: 20px;
+
+}
+
+.footer-card--text{
+    font-size: 16px;
+    color: #c0c0c0;
+    line-height: 20px;
+    padding-bottom: 30px;
+    text-align: justify;
+    text-rendering: optimizeLegibility;
+}
+
+
+.footer-card--ijtimoiy{
+    display: flex;
+    gap:5px;
+    padding-bottom: 50px;
+    
+}
+
+.footer--tg{
+    width: 38px;
+    height: 38px;
+    border-radius: 50%;
+    background-color:#ffffff1f;
+    color: #fff;
+   
+}
+
+.footer--tg:hover{
+    color: #008ccc;
+}
+
+.footer--tg--teleg{
+    font-size: 20px;
+    margin-left: 5px;
+    position: relative;
+    left:6px;
+    top: 10px;
+    background:#fff;
+
+}
+
+.footer--tg--teleg:hover{
+    background-color: #008ccc;
+}
+.footer-card--ins{
+    font-size: 20px;
+    margin-left: 5px;
+    position: relative;
+    left:5px;
+    top: 8px;
+    background: none;
+}
+
+.footer--tg--teleg:hover{
+    color: red;
+}
+
+.footer--card--link{
+    text-decoration: none;
+    color: #fff;
+}
+
+.footer--card--link:hover{
+    color: #008ccc;
+}

@@ -4,8 +4,8 @@ import { Card } from "./component/card"
 import { AsideCard } from "./component/card/rightcard"
 import { LeftMain } from "./component/card/leftCard"
 import { Dunyo } from "./component/dunyo"
-import { Footer } from "antd/es/layout/layout"
 import { Mahalliy } from "./component/mahalliy"
+import { Footer } from "./component/footer"
 
 
 function App() {
@@ -25,8 +25,8 @@ function App() {
         <AsideCard/>
       </div>
     </div>
-     {/* <Card/> */}
      <Footer/>
+     
     
 
     </BrowserRouter>
