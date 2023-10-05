@@ -1,289 +1,294 @@
 import './mahalliy.css'
 import { NavLink } from 'react-router-dom'
 
+import mahalliyImg from './img/mahalliy-img.jpg'
+import mahalliyImg1 from './img/mahalliy-img1.jpg'
+import mahalliyImg2 from './img/mahalliy-img2.jpg'
+import mahalliyImg3 from './img/mahalliy-img3.jpg'
+import mahalliyImg4 from './img/mahalliy-img4.jpg'
+import mahalliyImg5 from './img/mahalliy-img5.jpg'
+import mahalliyImg6 from './img/mahalliy-img6.jpg'
+import mahalliyImg7 from './img/mahalliy-img7.jpg'
+import mahalliyImg8 from './img/mahalliy-img8.jpg'
+import mahalliyImg9 from './img/mahalliy-img9.jpg'
 
-import dunyoImg from '../dunyo/img/dunyo-img.jpg'
-import dunyoImg1 from '../dunyo/img/dunyo-img1.jpg'
-import dunyoImg2 from '../dunyo/img/dunyo-img2.jpg'
-import dunyoImg3 from '../dunyo/img/dunyo-img3.jpg'
-import dunyoImg4 from '../dunyo/img/dunyo-img4.jpg'
-import dunyoImg5 from '../dunyo/img/dunyo-img5.jpg'
-import dunyoImg6 from '../dunyo/img/dunyo-img6.jpg'
+
+
 import dunyoImg7 from '../dunyo/img/dunyo-img7.jpg'
 import dunyoImg8 from '../dunyo/img/dunyo-img8.jpg'
 
 
-export const Mahalliy = () =>{
-    return(
+export const Mahalliy = () => {
+    return (
         <div className='card--dunyo'>
-      <h2 className='card--dunyo__heading'>Mahalliy </h2>
+            <h2 className='card--dunyo__heading'>Mahalliy </h2>
 
-      <div className="card--dunyo__box">
-        <div>
-          <div className="card--dunyo__box--wrapper">
-            <a href="/category/mahalliy" style={{
-              color: "#000",
-              textDecoration: "none"
+            <div className="card--dunyo__box">
+                <div>
+                    <div className="card--dunyo__box--wrapper">
+                        <img className='card--dunyo__box--wrapper' src={mahalliyImg} alt="" />
 
-            }}>
-              <p className='card--dunyo__box--wrapper--text'>MAHALLIY</p>
+                        <a href="/category/mahalliy" style={{
+                            color: "#000",
+                            textDecoration: "none"
 
+                        }}>
+                            <p className='card--dunyo__box--wrapper--text1'>MAHALLIY</p>
+
+                        </a>
+                    </div>
+                    <h3 className='card--dunyo__box--wrapper--heading'>
+                        Toshkentning to‘rt tumanida gaz vaqtincha to‘xtatiladi
+                    </h3>
+                    <span className='card--dunyo__box--wrapper--span'>
+                        BUGUN, 18:37
+                    </span>
+                    <p className='card--dunyo__box--wrapper--dec'>
+                        Mazkur hududlar ro‘yxati eʼlon qilindi
+
+                    </p>
+                </div>
+
+                <div>
+                    <div className="card--dunyo__box--wrapper">
+                        <img className='card--dunyo__box--wrapper' src={mahalliyImg1} alt="" />
+                        <a href="/category/mahalliy" style={{
+                            color: "#000",
+                            textDecoration: "none"
+
+                        }}>
+                            <p className='card--dunyo__box--wrapper--text1'>MAHALLIY</p>
+
+                        </a>
+                    </div>
+                    <h3 className='card--dunyo__box--wrapper--heading'>
+                        2023-yilda o‘rmonlarni asrash, daraxtlarni ko‘paytirish borasida O‘zbekistonda qanday ishlar amalga oshirildi?
+                    </h3>
+                    <span className='card--dunyo__box--wrapper--span'>
+                        BUGUN, 18:33
+                    </span>
+                    <p className='card--dunyo__box--wrapper--dec'>
+                        O‘rmon fondining foydalanilmayotgan 3,5 ming gektar yer maydoni o‘zlashtirilib, foydalanishga kiritildi. Shuningdek, sug‘oriladigan qishloq xo‘jaligi
+                    </p>
+                </div>
+            </div>
+
+            <div className="card--dunyo__box">
+                <div>
+                    <div className="card--dunyo__box--wrapper">
+                        <img className='card--dunyo__box--wrapper' src={mahalliyImg2} alt="" />
+                        <a href="/category/mahalliy" style={{
+                            color: "#000",
+                            textDecoration: "none"
+
+                        }}>
+                            <p className='card--dunyo__box--wrapper--text1'>MAHALLIY</p>
+
+                        </a>
+                    </div>
+                    <h3 className='card--dunyo__box--wrapper--heading'>
+                        Samarqand ekoforumi yakunlandi. Yopilish marosimida Ziroat Mirziyoyeva qatnashdi
+                    </h3>
+                    <span className='card--dunyo__box--wrapper--span'>
+                        BUGUN, 18:16
+
+                    </span>
+                    <p className='card--dunyo__box--wrapper--dec'>
+                        Yopilish marosimining badiiy qismi Maykl Jeksonning Earth Song qo‘shig‘i bilan yakunlandi
+
+                    </p>
+                </div>
+
+                <div>
+                    <div className="card--dunyo__box--wrapper">
+                        <img className="card--dunyo__box--wrapper" src={mahalliyImg3} alt="" />
+                        <a href="/category/mahalliy" style={{
+                            color: "#000",
+                            textDecoration: "none"
+
+                        }}>
+                            <p className='card--dunyo__box--wrapper--text1'>MAHALLIY</p>
+
+                        </a>
+                    </div>
+                    <h3 className='card--dunyo__box--wrapper--heading'>
+                        Shavkat Mirziyoyev Tojikiston prezidentini tavallud kuni bilan tabrikladi
+                    </h3>
+                    <span className='card--dunyo__box--wrapper--span'>
+                        BUGUN, 17:57
+                    </span>
+                    <p className='card--dunyo__box--wrapper--dec'>
+                        Mintaqaviy hamkorlik masalalari yuzasidan ham fikr almashildi
+
+                    </p>
+                </div>
+            </div>
+            <div className="card--dunyo__box">
+                <div>
+                    <div className="card--dunyo__box--wrapper">
+                        <img className="card--dunyo__box--wrapper" src={mahalliyImg4} alt="" />
+                        <a href="/category/mahalliy" style={{
+                            color: "#000",
+                            textDecoration: "none"
+
+                        }}>
+                            <p className='card--dunyo__box--wrapper--text1' style={{
+
+                            }}>MAHALLIY</p>
+
+                        </a>
+                    </div>
+                    <h3 className='card--dunyo__box--wrapper--heading'>
+                        Qishda anomal sovuq takrorlanadimi? Mutaxassis izoh berdi
+                    </h3>
+                    <span className='card--dunyo__box--wrapper--span'>
+                        BUGUN, 17:52
+                    </span>
+                    <p className='card--dunyo__box--wrapper--dec'>
+                        2023-yilning yanvarida sovuq antisiklonning respublikaga chuqurroq kirib kelishi fonida harorat minus 17–22 gradusgacha pasaygan edi
+                    </p>
+                </div>
+
+                <div>
+                    <div className="card--dunyo__box--wrapper">
+                        <img className="card--dunyo__box--wrapper" src={mahalliyImg5} alt="" />
+                        <a href="/category/mahalliy" style={{
+                            color: "#000",
+                            textDecoration: "none"
+
+                        }}>
+                            <p className='card--dunyo__box--wrapper--text1' style={{
+                                left: '3px',
+                                bottom: "7px"
+                            }}>MAHALLIY</p>
+
+                        </a>
+                    </div>
+                    <h3 className='card--dunyo__box--wrapper--heading'>
+                        Shavkat Mirziyoyev Rossiya hukumati raisining o‘rinbosari bilan uchrashdi
+                    </h3>
+                    <span className='card--dunyo__box--wrapper--span'>
+                        BUGUN, 17:44
+
+                    </span>
+                    <p className='card--dunyo__box--wrapper--dec'>
+                        Uchrashuvda qanday masalalar muhokama qilingani ochiqlandi
+
+                    </p>
+                </div>
+            </div>
+            <div className="card--dunyo__box">
+                <div>
+                    <div className="card--dunyo__box--wrapper">
+                        <img className="card--dunyo__box--wrapper" src={mahalliyImg6} alt="" />
+                        <a href="/category/mahalliy" style={{
+                            color: "#000",
+                            textDecoration: "none"
+
+                        }}>
+                            <p className='card--dunyo__box--wrapper--text1'>MAHALLIY</p>
+
+                        </a>
+                    </div>
+                    <h3 className='card--dunyo__box--wrapper--heading'>
+                    “O‘zbekistonda elektr uchun narxlarning oshishi 98 foiz isteʼmolchilarga mutlaqo taʼsir qilmaydi” — Energetika vazirligi
+                    </h3>
+                    <span className='card--dunyo__box--wrapper--span'>
+                    BUGUN, 17:20
+
+                    </span>
+                    <p className='card--dunyo__box--wrapper--dec'>
+                    Vazirlik matbuot kotibi tarmoqlarda tarqalgan xabarlarga tushuntirish berdi
+
+                    </p>
+                </div>
+
+                <div>
+                    <div className="card--dunyo__box--wrapper">
+                        <img className="card--dunyo__box--wrapper" src={mahalliyImg7} alt="" />
+                        <a href="/category/mahalliy" style={{
+                            color: "#000",
+                            textDecoration: "none"
+
+                        }}>
+                            <p className='card--dunyo__box--wrapper--text1'>MAHALLIY</p>
+
+                        </a>
+                    </div>
+                    <h3 className='card--dunyo__box--wrapper--heading'>
+                    O‘zbekistonda dollar kursi ketma-ket ikkinchi kun pastladi
+                    </h3>
+                    <span className='card--dunyo__box--wrapper--span'>
+                    BUGUN, 16:11
+
+                    </span>
+                    <p className='card--dunyo__box--wrapper--dec'>
+                    Yevro ham ko‘tarilib, rubl pastladi
+
+                    </p>
+                </div>
+            </div>
+            <div className="card--dunyo__box">
+                <div>
+                    <div className="card--dunyo__box--wrapper">
+                        <img className="card--dunyo__box--wrapper" src={mahalliyImg8} alt="" />
+                        <a href="/category/mahalliy" style={{
+                            color: "#000",
+                            textDecoration: "none"
+
+                        }}>
+                            <p className='card--dunyo__box--wrapper--text1'>MAHALLIY</p>
+
+                        </a>
+                    </div>
+                    <h3 className='card--dunyo__box--wrapper--heading'>
+                    Jurnalist Suriya Magdiyeva 43 yoshida vafot etdi
+                    </h3>
+                    <span className='card--dunyo__box--wrapper--span'>
+                    BUGUN, 15:17
+                    </span>
+                    <p className='card--dunyo__box--wrapper--dec'>
+                    U “Darakchi” gazetasining ruscha nashrida faoliyat ko‘rsatib kelayotgan edi
+
+                    </p>
+                </div>
+
+                <div>
+                    <div className="card--dunyo__box--wrapper">
+                        <img className="card--dunyo__box--wrapper" src={mahalliyImg9} alt="" />
+                        <a href="/category/mahalliy" style={{
+                            color: "#000",
+                            textDecoration: "none"
+
+                        }}>
+                            <p className='card--dunyo__box--wrapper--text1'>MAHALLIY</p>
+
+                        </a>
+                    </div>
+                    <h3 className='card--dunyo__box--wrapper--heading'>
+                    Shavkat Mirziyoyev Qozon shahriga yetib bordi (foto) 
+                    </h3>
+                    <span className='card--dunyo__box--wrapper--span'>
+                    BUGUN, 14:20
+
+                    </span>
+                    <p className='card--dunyo__box--wrapper--dec'>
+                    O‘zbekiston prezidentini aeroportda Rossiya hukumati raisi o‘rinbosari va Tatariston rahbari kutib oldi
+                    </p>
+                </div>
+            </div>
+
+            <button className='card--dunyo__box--btn'>
+                <b>MAHALLIY </b>- KO'PROQ XABARLARNI YUKLASH
+            </button>
+
+
+
+            <a target={'_blank'} href="https://ucell.uz/uz/subscribers/tariffs?utm_source=daryo&utm_medium=cpm&utm_campaign=doimiy&utm_content=2332x220&utm_term=uz">
+                <img style={{
+                    width: '770px',
+                }} src='https://avatars.mds.yandex.net/get-adfox-content/2462621/230930_adfox_2661047_7833721.66ff6aaec697188aa11dc5ef28f02487.jpg/optimize.webp' alt="" />
             </a>
-          </div>
-          <h3 className='card--dunyo__box--wrapper--heading'>
-            Bayden Ukrainaga ATACMS raketalarini yetkazib berish haqidagi savolga javob berdi
-          </h3>
-          <span className='card--dunyo__box--wrapper--span'>
-            BUGUN, 10:22
-
-          </span>
-          <p className='card--dunyo__box--wrapper--dec'>
-            OAV AQSH prezidenti Ukrainaga kassetali o‘q-dorilar bilan birga ATACMS raketalarini berishga qaror qilgani haqida xabar bergandi
-          </p>
         </div>
-
-        <div>
-          <div className="card--dunyo__box--wrapper">
-            <img className='card--dunyo__box--wrapper' src={dunyoImg} alt="" />
-            <a href="/category/mahalliy" style={{
-              color: "#000",
-              textDecoration: "none"
-
-            }}>
-              <p className='card--dunyo__box--wrapper--text1'>MAHALLIY</p>
-
-            </a>
-          </div>
-          <h3 className='card--dunyo__box--wrapper--heading'>
-            Yaponiyada 6,6 magnitudali zilzila yuz berdi. Sunami xavfi e’lon qilindi
-          </h3>
-          <span className='card--dunyo__box--wrapper--span'>
-            BUGUN, 09:05
-
-
-          </span>
-          <p className='card--dunyo__box--wrapper--dec'>
-            Sohilbo‘yi hududlarida va daryolar yaqinida yashovchi odamlarga balandroq yerga chiqish tavsiya etilmoqda
-
-          </p>
-        </div>
-      </div>
-
-      <div className="card--dunyo__box">
-        <div>
-          <div className="card--dunyo__box--wrapper">
-            <img className='card--dunyo__box--wrapper' src={dunyoImg1} alt="" />
-            <a href="/category/mahalliy" style={{
-              color: "#000",
-              textDecoration: "none"
-
-            }}>
-              <p className='card--dunyo__box--wrapper--text1'>MAHALLIY</p>
-
-            </a>
-          </div>
-          <h3 className='card--dunyo__box--wrapper--heading'>
-            Shimoliy Koreya mamlakatdagi yadro reaktorining ishini to‘xtatdi — OAV
-          </h3>
-          <span className='card--dunyo__box--wrapper--span'>
-            BUGUN, 17:39
-          </span>
-          <p className='card--dunyo__box--wrapper--dec'>
-            Janubiy Koreya va AQSH buni yadro qurolini yaratish belgisi deb baholadi
-
-
-          </p>
-        </div>
-
-        <div>
-          <div className="card--dunyo__box--wrapper">
-            <img className="card--dunyo__box--wrapper" src={dunyoImg2} alt="" />
-            <a href="/category/mahalliy" style={{
-              color: "#000",
-              textDecoration: "none"
-
-            }}>
-              <p className='card--dunyo__box--wrapper--text1'>MAHALLIY</p>
-
-            </a>
-          </div>
-          <h3 className='card--dunyo__box--wrapper--heading'>
-            Buyuk Britaniyada 2008-yildan keyin tug‘ilganlarga tamaki sotish taqiqlanishi mumkin
-          </h3>
-          <span className='card--dunyo__box--wrapper--span'>
-            BUGUN, 17:03
-
-
-
-          </span>
-          <p className='card--dunyo__box--wrapper--dec'>
-            Bunday tashabbus Britaniya bosh vaziri Rishi Sunak tomonidan ilgari surilmoqda
-
-          </p>
-        </div>
-      </div>
-      <div className="card--dunyo__box">
-        <div>
-          <div className="card--dunyo__box--wrapper">
-            <img className="card--dunyo__box--wrapper" src={dunyoImg3} alt="" />
-            <a href="/category/mahalliy" style={{
-              color: "#000",
-              textDecoration: "none"
-
-            }}>
-              <p className='card--dunyo__box--wrapper--text1' style={{
-              
-              }}>MAHALLIY</p>
-
-            </a>
-          </div>
-          <h3 className='card--dunyo__box--wrapper--heading'>
-            Adabiyot bo‘yicha bu yilgi Nobel mukofoti qaysi yozuvchiga berilishi aniq bo‘ldi
-          </h3>
-          <span className='card--dunyo__box--wrapper--span'>
-            BUGUN, 16:32
-
-
-
-          </span>
-          <p className='card--dunyo__box--wrapper--dec'>
-            Nobel qo‘mitasining press-relizida mukofot unga “ta’riflash qiyin bo‘lgan tuyg‘ularni ifodalovchi innovatsion pyesalari va nasri uchun” berilgani ayti...
-
-          </p>
-        </div>
-
-        <div>
-          <div className="card--dunyo__box--wrapper">
-            <img className="card--dunyo__box--wrapper" src={dunyoImg4} alt="" />
-            <a href="/category/mahalliy" style={{
-              color: "#000",
-              textDecoration: "none"
-
-            }}>
-              <p className='card--dunyo__box--wrapper--text1' style={{
-                left:'3px',
-                bottom:"7px"
-              }}>MAHALLIY</p>
-
-            </a>
-          </div>
-          <h3 className='card--dunyo__box--wrapper--heading'>
-            Ramzan Qodirovning tanqidchisi Qirg‘izistondan deportatsiya qilinadi
-          </h3>
-          <span className='card--dunyo__box--wrapper--span'>
-            BUGUN, 15:29
-          </span>
-          <p className='card--dunyo__box--wrapper--dec'>
-            Mansur Movlayev dastlab Qirg‘izistonda olti oy koloniyada jazo o‘taydi
-          </p>
-        </div>
-      </div>
-      <div className="card--dunyo__box">
-        <div>
-          <div className="card--dunyo__box--wrapper">
-            <img className="card--dunyo__box--wrapper" src={dunyoImg5} alt="" />
-            <a href="/category/mahalliy" style={{
-              color: "#000",
-              textDecoration: "none"
-
-            }}>
-              <p className='card--dunyo__box--wrapper--text1'>MAHALLIY</p>
-
-            </a>
-          </div>
-          <h3 className='card--dunyo__box--wrapper--heading'>
-            Amerikaga piyoda ketayotganlar, yomg‘ir so‘rash uchun qilingan ibodat, yerda yotgan bemor ona — 4-oktyabr suratlari
-          </h3>
-          <span className='card--dunyo__box--wrapper--span'>
-            KECHA, 23:13
-          </span>
-          <p className='card--dunyo__box--wrapper--dec'>
-            Eron dronlar yordamida mashg‘ulotlar o‘tkazdi
-          </p>
-        </div>
-
-        <div>
-          <div className="card--dunyo__box--wrapper">
-            <img className="card--dunyo__box--wrapper" src={dunyoImg6} alt="" />
-            <a href="/category/mahalliy" style={{
-              color: "#000",
-              textDecoration: "none"
-
-            }}>
-              <p className='card--dunyo__box--wrapper--text1'>MAHALLIY</p>
-
-            </a>
-          </div>
-          <h3 className='card--dunyo__box--wrapper--heading'>
-            AQSH Erondan musodara qilingan qurol va o‘q-dorilarni Ukrainaga yuboradi
-          </h3>
-          <span className='card--dunyo__box--wrapper--span'>
-            KECHA, 21:30
-          </span>
-          <p className='card--dunyo__box--wrapper--dec'>
-            AQSH Markaziy qo‘mondonligi bunday qaror haqida shu hafta oxirigacha e’lon qilishi kutilmoqda
-          </p>
-        </div>
-      </div>
-      <div className="card--dunyo__box">
-        <div>
-          <div className="card--dunyo__box--wrapper">
-            <img className="card--dunyo__box--wrapper" src={dunyoImg7} alt="" />
-            <a href="/category/mahalliy" style={{
-              color: "#000",
-              textDecoration: "none"
-
-            }}>
-              <p className='card--dunyo__box--wrapper--text1'>MAHALLIY</p>
-
-            </a>
-          </div>
-          <h3 className='card--dunyo__box--wrapper--heading'>
-            Green Card DV-2025 mavsumi uchun ro‘yxatdan o‘tish boshlandi. Arizani to‘g‘ri to‘ldirish bo‘yicha yo‘riqnoma
-          </h3>
-          <span className='card--dunyo__box--wrapper--span'>
-            KECHA, 21:01
-          </span>
-          <p className='card--dunyo__box--wrapper--dec'>
-            Bugun 4-oktyabr kuni Toshkent vaqti bilan soat 21:00 da Green Card DV-2025 mavsumi uchun ro‘yxatdan o‘tish boshlandi. Ro‘yxatdan o‘tish 2023-yil 7-noy...
-          </p>
-        </div>
-
-        <div>
-          <div className="card--dunyo__box--wrapper">
-            <img className="card--dunyo__box--wrapper" src={dunyoImg8} alt="" />
-            <a href="/category/mahalliy" style={{
-              color: "#000",
-              textDecoration: "none"
-
-            }}>
-              <p className='card--dunyo__box--wrapper--text1'>MAHALLIY</p>
-
-            </a>
-          </div>
-          <h3 className='card--dunyo__box--wrapper--heading'>
-            Yaponiya Fukusima AESdagi suvning ikkinchi partiyasini okeanga chiqarishni boshladi
-          </h3>
-          <span className='card--dunyo__box--wrapper--span'>
-            BUGUN, 12:12
-          </span>
-          <p className='card--dunyo__box--wrapper--dec'>
-            Bu safar 7,8 ming tonnaga yaqin tozalangan suvni okeanga to‘kish rejalashtirilmoqda
-          </p>
-        </div>
-      </div>
-
-      <button className='card--dunyo__box--btn'>
-        <b>DUNYO </b>- KO'PROQ XABARLARNI YUKLASH
-      </button>
-
-
-
-      <a target={'_blank'} href="https://www.ipotekabank.uz/private/crediting/micro_new/">
-            <img style={{
-              width:'770px',
-            }} src='https://avatars.mds.yandex.net/get-adfox-content/2367573/230913_adfox_2627989_7692881.baed107e3f956903fdabf77d0d065cd0.jpg/optimize.webp' alt="" />
-      </a>
-    </div>
     )
 }

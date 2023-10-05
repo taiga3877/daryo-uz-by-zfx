@@ -26,15 +26,14 @@ export const Header = () =>{
        <div className='header-box'>
        <nav className='header-nav'>
             <ul className='header-nav__item'> 
-                <li className='header-nav__item--list'>
+            <li className='header-nav__item--list'>
                     <select className='header-nav__item--list-select' name="" id=""> 
                     <option value="mahalliy" >Mahalliy</option>
                     <option value="mehridaryo">Mehridaryo</option>
                     <option value="boshqalar">Boshqalar</option>
-
-
                     </select>
                     </li >
+            
                 <li className='header-nav__item--list'>
                     <select className='header-nav__item--list-select' name="" id="">
                     <option value="">Markaziy Osiyo</option>
