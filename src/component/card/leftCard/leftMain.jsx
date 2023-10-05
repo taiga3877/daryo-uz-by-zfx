@@ -26,7 +26,7 @@ export const LeftMain =() =>{
             <p className='leftMain-box--text'>DUNYO</p>
 
             </NavLink>
-       <NavLink to="https://daryo.uz/2023/10/05/ozbekistonda-kollej-va-texnikumlarda-talim-olayotgan-qizlarga-grant-ajratiladi" style={{
+       <NavLink to="https://daryo.uz/2023/10/03/firibgarlikda-ayblanayotgan-tramp-drenajdan-chiqqan-olik-delfinlar" style={{
         textDecoration:'none',
        }}>
        <h2 className='leftMain-box--heading'>

@@ -6,6 +6,7 @@ import lyfImg2 from './img/lyf-img2.jpg'
 import lyfImg3 from './img/lyf-img3.jpg'
 import lyfImg4 from './img/lyf-img4.jpg'
 import lyfImg5 from './img/lyf-img5.jpg'
+import { NavLink } from 'react-router-dom'
 
 
 function LifestyleCard() {
@@ -22,9 +23,14 @@ function LifestyleCard() {
 
 
                     <div className="card-leftDunyo--left--lifestyle">
-                        <p className="card-leftDunyo--left--lifestyle__text">
+                    <NavLink style={{
+                        textDecoration:'none',
+                        color:'#000'
+                    }} to='./category/mahalliy'>
+                    <p className="card-leftDunyo--left--lifestyle__text">
                             SALOMATLIK
                         </p>
+                          </NavLink>
 
                         <h4  className='card-leftDunyo--left--lifestyle__heading'>
                             Nima uchun tomoq achishadi? Ushbu yoqimsiz alomatdan qanday qutulish mumkin?
@@ -36,9 +42,14 @@ function LifestyleCard() {
 
                     </div>
                     <div className="card-leftDunyo--left--lifestyle1">
+                    <NavLink style={{
+                        textDecoration:'none',
+                        color:'#000'
+                    }} to='./category/mahalliy'>
                         <p className="card-leftDunyo--left--lifestyle__text">
                             LAYFSTAL
                         </p>
+                    </NavLink>
 
                         <h4 className='card-leftDunyo--left--lifestyle__heading'>
                             Immunitet nima sababdan pasayadi va uni qanday qilib ko‘tarish mumkin?
@@ -142,9 +153,9 @@ function LifestyleCard() {
                 </div>
                 </div>
                 </div>
-
+                <NavLink to='./category/mahalliy'>
             <button className="card-leftDunyo--btn"> <b>LAYFSTAL</b>-ENG SO'NGGI XABARLAR </button>
-
+                    </NavLink>
         </div>
         </div>
     )

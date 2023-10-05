@@ -34,9 +34,16 @@ function MahalliyCard() {
                     <div className="card-leftDunyo--right__card">
                         <img className='card-leftDunyo--right__card--img' src={mahhalliyImg} alt="img" />
                         <div>
+                        <NavLink to="https://daryo.uz/2023/10/04/ozbekistonning-9-ta-viloyatida-sel-suv-toshqini-xavfi-elon-qilindi"  style={{
+                              textDecoration:'none',
+                              color:'#000',
+                               }} >
+
                             <h4 className="card-leftDunyo--right__card--heading">
                                 O‘zbekistonning 9 ta viloyatida sel-suv toshqini xavfi eʼlon qilindi
                             </h4>
+</NavLink>
+
 
                             <p className="card-leftDunyo--right__card--text">
                                 15:00 / 04.10.2023
@@ -90,6 +97,10 @@ function MahalliyCard() {
 
                 <div>
 
+                <NavLink to="https://daryo.uz/2023/10/05/ozbekistonda-dollar-kursi-ketma-ket-ikkinchi-kun-pastladi"  style={{
+                              textDecoration:'none',
+                              color:'#000',
+                               }} >
 
                     <div className="card-leftDunyo--left--mahalliy">
                         <NavLink to="/category/mahalliy" style={{
@@ -103,9 +114,18 @@ function MahalliyCard() {
 
 
                     </div>
+                    
+</NavLink>
+                    <NavLink to="https://daryo.uz/2023/10/05/ozbekistonda-dollar-kursi-ketma-ket-ikkinchi-kun-pastladi"  style={{
+                              textDecoration:'none',
+                              color:'#000',
+                               }} >
+
                     <h4 className="card-leftDunyo--left__heading">
                         O‘zbekistonda dollar kursi ikki kunlik ko‘tarilishdan so‘ng pastladi
                     </h4>
+</NavLink>
+
 
                     <p className='card-leftDunyo--left__text1'>
                         16:00 / 04.10.2023
