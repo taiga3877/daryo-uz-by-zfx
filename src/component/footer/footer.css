@@ -103,3 +103,17 @@
 margin-left:15px;
 margin-right: 20px;
 }
+
+
+@media only screen and (max-width:768px) {
+    .footer-card--bottom{
+        display: block;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .footer-card--bottom__text{
+        margin-bottom: 21px;
+        
+    }
+}

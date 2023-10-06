@@ -154,3 +154,82 @@
 .aside-box4--oqilgan__text {
     font-size: 10px;
 }
+
+
+@media only screen and (max-width:768px) {
+    .aside {
+        width: 680px;
+        margin-top: 50px;
+    }  
+    .text--span{
+        width: 40px;
+        border: 3px solid #008ccc;
+    }
+
+    .aside-box--card1 {
+        display: flex;
+        align-items: center;
+        width: 660px;
+        padding: 0px;
+        
+    
+    }
+    .aside-box--card1__heading{
+        width: 550px;
+        height: 40.4px;
+        font-size: 16px;
+        color: #161616;
+        cursor: pointer;
+    }
+   .aside-box1--card1{
+    display: flex;
+    width: 680px;
+    height: 69px;
+    margin-bottom: 20px;
+    padding: 0px;
+   }
+
+   .aside-box1--card1__heading{
+    width: 570px;
+    height: 30px;
+    margin-bottom: 15px;
+    margin-top: 0 ;
+
+   }
+
+   .img-box{
+    background-image: url(https://daryo.uz/static/2023/10/medium-651998f2f27b9.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: 404px;
+    width: 680px;
+    margin-top: 35px;
+   }
+
+   .aside-box1--card1{
+    width: 680px;
+   }
+
+
+   .aside-box4--oqilgan{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+   }
+
+   .aside-box4--oqilgan__heading{
+    cursor: pointer;
+    width: 636px;
+    font-size: 15px;
+   }
+
+   .aside-box4--oqilgan__bordertext{
+    margin-top: -15px;
+    font-size: 20px;
+    padding: 10px;
+    height: 25px;
+    width: 25px;
+   }
+}

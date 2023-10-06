@@ -25,9 +25,9 @@ function Tavsif(){
                                 “Oyiga 80-100 mln so‘mlik dorilar sotilib, o‘zaro taqsimlab kelingan”. “Dok-1 Maks” sudida...
                             </h3>
 
-                            <p className='aside-box1--card1__text'>
+                            <span className='aside-box1--card1__text'>
                                 17:00 / 03.10.2023
-                            </p>
+                            </span>
                         </div>
 
                     </div>

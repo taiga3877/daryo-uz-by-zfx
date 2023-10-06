@@ -39,16 +39,15 @@ export const AsideCard = () => {
                                 BUGUN, 20:35
                             </p>
                         </div>
-                        <div>
+                        
                             <img className='aside-box--card1__img' src={card1Img} alt="card-img" />
-                        </div>
+                        
                     </div>
                     <div className="aside-box--card1">
                         <div>
                             <h3 className='aside-box--card1__heading'>
                                 Britaniya hukumati xorijdagi qamoqxonalarni ijaraga olishga qaror qildi
                             </h3>
-
                             <p className='aside-box--card1__text'>
                                 KECHA, 21:50
                             </p>

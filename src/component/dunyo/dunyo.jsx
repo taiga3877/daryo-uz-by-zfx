@@ -280,9 +280,7 @@ export const Dunyo = () => {
 
 
       <a target={'_blank'} href="https://www.ipotekabank.uz/private/crediting/micro_new/">
-            <img style={{
-              width:'770px',
-            }} src='https://avatars.mds.yandex.net/get-adfox-content/2367573/230913_adfox_2627989_7692881.baed107e3f956903fdabf77d0d065cd0.jpg/optimize.webp' alt="" />
+            <img className='dunyo-reklama--img'  src='https://avatars.mds.yandex.net/get-adfox-content/2367573/230913_adfox_2627989_7692881.baed107e3f956903fdabf77d0d065cd0.jpg/optimize.webp' alt="" />
       </a>
     </div>
   )

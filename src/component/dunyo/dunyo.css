@@ -14,17 +14,12 @@
     margin-bottom: 40px;
     width: 770px;
     margin-top: -3px;
-
-
-
 }
 
 .card--dunyo__box{
     display: flex;
     justify-content: space-between;
     width: 770px;
-
-
 }
 
 .card--dunyo__box--wrapper{
@@ -116,6 +111,73 @@ color: #008ccc;
     text-transform: uppercase;
     letter-spacing: .03em;
     line-height: 22px;
+}
+.dunyo-reklama--img{
+    width: 770px;
+}
 
 
+@media only screen and (max-width:768px) {
+    .card--dunyo{
+        width: 716px;
+    
+    }  
+
+    .card--dunyo__box{
+        display: flex;
+        justify-content: space-between;
+        width: 680px;
+        margin-bottom: 36px;
+    }
+
+    .card--dunyo__heading{
+        font-size: 19px;
+        margin-left: 10px;
+        padding-left: 14px;
+        border-left: 3px solid #008ccc;
+        color: #161616;
+        font-weight: 600;
+        text-transform: uppercase;
+        margin-bottom: 40px;
+        width: 680px;
+        height: 38px;
+        margin-top: -3px;
+    }
+
+    .card--dunyo__box--wrapper{
+        background-image: url(https://daryo.uz/static/2023/10/medium-651e424f6bccd.jpg);
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+        overflow: hidden;
+        cursor: pointer;
+        width: 322px;
+        height: 191.66px;
+        position: relative;
+        
+    }
+
+    .card--dunyo__box--wrapper--heading{
+        width: 322px;
+    }
+
+    .card--dunyo__box--wrapper--dec{
+        width: 322px;
+    }
+
+    .card--dunyo__box--btn{
+        width: 647px;
+        line-height: 18px;
+        padding: 4px 0;
+        background-color: #008ccc;
+        border: none ;
+        cursor: pointer;
+        height: 40px;
+        border-radius: 1px;
+        margin: 30px 0 20px 0;
+    }
+
+    .dunyo-reklama--img{
+        width: 680px;
+    }
 }
