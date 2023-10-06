@@ -8,15 +8,15 @@ import { NavLink } from 'react-router-dom'
 export const Header = () =>{
     return(
         <div className="container">
-        <div className='header'>
-           <a href="#"> <img style={{
+        <div className='header '>
+           <a href="#"> <img  style={{
                 width:'236px',
                 height:'83px',
             }} src={helogo} alt="header logo" />
             </a>
 
             <a href="https://www.textileexpo.uz/uz/visitors/online-registratsiya.php?utm_source=Daryo&utm_medium=banner" target={'_blank'}>
-            <img  style={{
+            <img className='header-imgLogo' style={{
                 width:'899px',
                 height:'85px',
             }} src={heReklama} alt="Header-reklama-img" />
@@ -24,7 +24,7 @@ export const Header = () =>{
         </div>
 
        <div className='header-box'>
-       <nav className='header-nav'>
+       <nav className='header-nav '>
             <ul className='header-nav__item'> 
             <li className='header-nav__item--list'>
                     <select className='header-nav__item--list-select' name="" id=""> 

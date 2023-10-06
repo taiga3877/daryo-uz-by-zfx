@@ -4,13 +4,13 @@ import telegram from './telegram.svg'
 
 export const Footer = () => {
     return (
-        <div>
-            <div style={{
-                backgroundColor: '#0f0f0f',
-                width: '100%',
-                marginTop:'70px'
+        <div style={{
+            backgroundColor: '#0f0f0f',
+            marginTop:'70px',
+            
 
-            }}>
+        }}>
+            <div >
                 <div className="container">
                     <img className='footer-card--img' src="https://daryo.uz/logo/logo-white.png" alt="footer-logo" />
 

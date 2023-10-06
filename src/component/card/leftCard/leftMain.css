@@ -272,9 +272,187 @@
     align-items: center;
 
 }
+.card--reklamaImg{
+    width: 770px;
+}
 
 
 
 
 
+@media only screen and (max-width:768px) {
 
+    .container{
+        width: 716px;
+        margin: 0 auto;
+        padding: 0 18px;
+        
+    }
+    .text-dunyo--span {
+        border-top: 4px solid#008ccc;
+        /* margin-right: 670px; */
+        width: 40px;
+    
+    }
+    
+    .leftMain-box--img{
+        background-image: url(https://daryo.uz/static/2023/10/thumb-651c54bc32deb.jpg);
+        width: 716px;
+        height: 376px;
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+        overflow: hidden;
+        cursor: pointer;
+    }
+
+
+    .leftMain-box--card{
+        display: grid;
+        grid-template-columns: 50% 50%;
+        margin-top: 25px;
+        justify-content: space-between;
+    }
+
+    .leftMain-box--card__wrapper--img{
+        width: 330px;
+    height: 196px;
+    }
+
+    .leftMain-box--card__wrapper--heading{
+        font-size: 14px;
+        width: 330px;
+        height: 57.11px;
+    }
+
+    .card-leftDunyo{
+        display: block;
+    }
+
+    .card-leftDunyo--left{
+        background-image: url(https://daryo.uz/static/2023/10/thumb-651d3b78d2389.jpg);
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+        overflow: hidden;
+        cursor: pointer;
+        width: 680px;
+        height: 404px;
+    }
+
+    .card-leftDunyo--left__text{
+        background-color: #008ccc;
+        padding: 0 8px;
+        position: relative;
+        top:  372px;
+        width: 52.53px;
+        font-size: 10px;
+        font-weight: 500;
+        text-transform: uppercase;
+        letter-spacing: .03em;
+        line-height: 22px;
+        border-radius: 1px;
+    
+    }
+
+    .card-leftDunyo--left__heading{
+        width: 680px;
+        font-size: 17px;
+        color: #161616;
+    }
+    .card-leftDunyo--left__dec{
+        font-size: 14px;
+        color: #515151;
+        width: 680px;
+        line-height: 22px;
+    }
+
+    .card-leftDunyo--right__card{
+        display: flex;
+        /* justify-content: space-between; */
+        align-items: center;
+        
+    }
+
+    .card-leftDunyo--right__card--heading{
+        font-size: 14px;
+        width: 570px;
+        color: #161616;
+    }
+
+    .card-leftDunyo--btn{
+        margin-top: 15px;
+        background-color: #008ccc;
+        text-align: center;
+        width: 680px;
+        border: none;
+        padding: 0 17px;
+        line-height: 25px;
+       font-size: 12px;
+       font-weight: 500;
+        height: 38px;
+        letter-spacing: .03em;
+        text-transform: uppercase;
+        color: #000;
+        border-radius: 2px;
+        margin-bottom: 30px;
+        cursor: pointer;
+    }
+
+    .card-leftDunyo--left--mahalliy{
+        background-image: url(https://daryo.uz/static/2023/10/thumb-651d46d041f0d.jpg);
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+        overflow: hidden;
+        cursor: pointer;
+        width: 680px;
+        height: 404px;
+    }
+    .card-leftDunyo1{
+        display: flex;
+    }
+    .card-leftDunyo--left--lifestyle{
+        background-image: url(https://daryo.uz/static/2023/Sevara/photo_2023-10-04_13-42-57.jpg);
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+        overflow: hidden;
+        cursor: pointer;
+        width: 322px;
+        height: 214px;
+    }
+    .card-leftDunyo--left--lifestyle1{
+        background-image: url(https://daryo.uz/static/2023/Sevara/Depositphotos_381711270_xl-2015.jpg);
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+        overflow: hidden;
+        cursor: pointer;
+        width: 322px;
+        height: 214px;
+    }
+    .card-leftDunyo--left--lifestyle__heading{
+        color: #fff;
+    font-size: 17px;
+    width: 289px;
+    position: relative;
+    left: 25px;
+    line-height: 1.28;
+    top: 80px;
+    }
+
+    .card-leftDunyo--right__lifestyle{
+        display: block;
+        margin-bottom: 20px;
+    }
+    .card-leftDunyo--right__card{
+        display: flex;
+        align-items: center;
+        margin-bottom: 26px;
+        width: 680px;
+    }
+    .card--reklamaImg{
+        width: 680px;
+    }
+}

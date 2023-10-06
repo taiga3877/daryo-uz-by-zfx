@@ -19,7 +19,7 @@ function LifestyleCard() {
             <p className='aside-card__dunyo--text'> </p>
 
             <div >
-                <div className="card-leftDunyo">
+                <div className="card-leftDunyo   card-leftDunyo1">
 
 
                     <div className="card-leftDunyo--left--lifestyle">

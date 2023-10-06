@@ -6,3 +6,11 @@
     gap: 40px;
     margin-top: 35px;
 }
+
+
+@media only screen and (max-width:768px) {
+    
+    .card{
+        display: block;
+    }
+}

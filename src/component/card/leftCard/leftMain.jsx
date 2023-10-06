@@ -76,10 +76,7 @@ export const LeftMain =() =>{
 
         
         <a href="https://ucell.uz/uz/subscribers/tariffs?utm_source=daryo&utm_medium=cpm&utm_campaign=doimiy&utm_content=2332x220&utm_term=uz" target={'_blank'}>
-        <img style={{
-            width:'770px',
-            
-        }} src={reklama} alt="" />
+        <img className='card--reklamaImg' src={reklama} alt="" />
         </a>
         </div>
      
