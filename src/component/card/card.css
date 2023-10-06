@@ -7,7 +7,18 @@
     margin-top: 35px;
 }
 
+@media only screen and (max-width:939px) {
+    .container{
+        width: 716px;
+        margin: 0 auto;
+        padding: 0 18px;
 
+    }
+    .card{
+        display: block;
+    }
+    
+ }
 @media only screen and (max-width:768px) {
     
     .card{

@@ -58,7 +58,21 @@
     border: none;
     cursor: pointer;
 }
+ @media only screen and (max-width:939px) {
+    .container{
+        width: 716px;
+        margin: 0 auto;
+        padding: 0 18px;
 
+    }
+    .header-imgLogo{
+        display: none;
+    }
+
+    .header-box{
+        display: none;
+    }
+ }
 
 
 @media only screen and (max-width:768px) {
@@ -68,7 +82,7 @@
         width: 716px;
         margin: 0 auto;
         padding: 0 18px;
-        
+
     }
     .header-imgLogo{
         display: none;

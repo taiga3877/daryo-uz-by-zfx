@@ -285,9 +285,7 @@ export const Mahalliy = () => {
 
 
             <a target={'_blank'} href="https://ucell.uz/uz/subscribers/tariffs?utm_source=daryo&utm_medium=cpm&utm_campaign=doimiy&utm_content=2332x220&utm_term=uz">
-                <img style={{
-                    width: '770px',
-                }} src='https://avatars.mds.yandex.net/get-adfox-content/2462621/230930_adfox_2661047_7833721.66ff6aaec697188aa11dc5ef28f02487.jpg/optimize.webp' alt="" />
+                <img className='mahalliy-reklama-img'  src='https://avatars.mds.yandex.net/get-adfox-content/2462621/230930_adfox_2661047_7833721.66ff6aaec697188aa11dc5ef28f02487.jpg/optimize.webp' alt="" />
             </a>
         </div>
     )
