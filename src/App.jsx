@@ -19,7 +19,7 @@ function App() {
           <Route path="/" element={<LeftMain/>}></Route>
           <Route path="/category/dunyo" element={<Dunyo/>}></Route>
           <Route path="/category/mahalliy" element={<Mahalliy/>}></Route>
-          {/* <Route path="*" element={<Error/>}></Route> */}
+          {/* <Route path="*" element={<Error/>}></Route>  */}
 
         </Routes>
       </div>

@@ -103,6 +103,16 @@
 margin-left:15px;
 margin-right: 20px;
 }
+
+.footer--card---bg{
+    
+        background-color: #0f0f0f;
+       margin-top:70px;
+       
+        
+
+
+}
 @media only screen and (max-width:939px) {
     .footer-card--bottom{
         display: block;
@@ -114,6 +124,7 @@ margin-right: 20px;
         margin-bottom: 21px;
         
     }
+   
 }
 
 @media only screen and (max-width:768px) {
@@ -127,4 +138,5 @@ margin-right: 20px;
         margin-bottom: 21px;
 
     }
+   
 }

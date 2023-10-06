@@ -1,6 +1,6 @@
 import helogo from './img/logo.svg'
 import heReklama from './img/header-reklama-img.jpg'
-import { SearchOutlined } from '@ant-design/icons'
+import { SearchOutlined , MenuOutlined } from '@ant-design/icons'
 import './header.css'
 import { NavLink } from 'react-router-dom'
 
@@ -8,6 +8,28 @@ import { NavLink } from 'react-router-dom'
 export const Header = () =>{
     return(
         <div className="container">
+            <div className="header-res">
+                <div className='icon--menu'>
+                <MenuOutlined />
+                </div>
+                <div>
+                    <a href="#">
+                        <img className='header-res--img' src={helogo} alt="" />
+                    </a>
+                </div>
+                <div className='header-res--rg'>
+                <div>
+                    <select name="" id="">
+                        <option value="light">Light</option>
+                        <option value="dark">Dark</option>
+
+                    </select>
+                </div>
+                <div>
+                <SearchOutlined />
+                </div>
+                </div>
+            </div>
         <div className='header '>
            <a href="#"> <img  style={{
                 width:'236px',
@@ -97,11 +119,16 @@ export const Header = () =>{
 
             </nav>
         <div className='header-box__card'>
-            <button style={{
+            
+             <select  style={{
                 backgroundColor:"#000",
                 color:'#fff',
                 border:'none'
-            }}>dark</button>
+            }} name="" id="">
+                        <option value="light">Light</option>
+                        <option value="dark">Dark</option>
+
+                    </select>
             <SearchOutlined />
             <p>UZB</p>
             <p>==</p>
